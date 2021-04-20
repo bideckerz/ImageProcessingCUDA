@@ -1,0 +1,5 @@
+﻿  imagecu.cpp
+     Creating library C:\Users\ixrplatform\Desktop\VS2019\CudaRuntime1\x64\Debug\CudaRuntime1.lib and object C:\Users\ixrplatform\Desktop\VS2019\CudaRuntime1\x64\Debug\CudaRuntime1.exp
+imagecu.obj : error LNK2019: unresolved external symbol "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@debug_build_guard@1@@Z) referenced in function main
+imagecu.obj : error LNK2019: unresolved external symbol "public: void __cdecl cv::cuda::GpuMat::upload(class cv::debug_build_guard::_InputArray const &)" (?upload@GpuMat@cuda@cv@@QEAAXAEBV_InputArray@debug_build_guard@3@@Z) referenced in function main
+C:\Users\ixrplatform\Desktop\VS2019\CudaRuntime1\x64\Debug\CudaRuntime1.exe : fatal error LNK1120: 2 unresolved externals
